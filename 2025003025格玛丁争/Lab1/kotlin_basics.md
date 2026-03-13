@@ -443,13 +443,13 @@ fun main() {
 
 ```kotlin
 fun main() {
-    printgemadingzhengWeather("Ankara", 27, 31, 82)
-    printgemadingzhengWeather("Tokyo", 32, 36, 10)
-    printgemadingzhengWeather("Cape Town", 59, 64, 2)
-    printgemadingzhengWeather("Guatemala City", 50, 55, 7)
+    printGemadingzhengWeather("Ankara", 27, 31, 82)
+    printGemadingzhengWeather("Tokyo", 32, 36, 10)
+    printGemadingzhengWeather("Cape Town", 59, 64, 2)
+    printGemadingzhengWeather("Guatemala City", 50, 55, 7)
 }
 
-fun printgemadingzhengWeather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
+fun printGemadingzhengWeather(city: String, lowTemp: Int, highTemp: Int, rainChance: Int) {
     println("City: $city")
     println("Low temperature: $lowTemp, High temperature: $highTemp")
     println("Chance of rain: $rainChance%")
